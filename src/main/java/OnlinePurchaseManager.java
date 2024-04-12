@@ -20,9 +20,6 @@ public class OnlinePurchaseManager
     return nums;
   }
   
-  /** Returns true if any pair of adjacent purchased Gizmo objects are
-  * equivalent, and false otherwise, as described in part (b).
-  */
   public boolean hasAdjacentEqualPair()
   {
     for(int i = 1; i < purchases.size()-1; i++){
